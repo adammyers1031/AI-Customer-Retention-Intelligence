@@ -38,7 +38,7 @@ customer-intel = "customer_intelligence.cli:main"
 where = ["src"]
 
 [tool.setuptools.package-data]
-customer_intelligence = ["prompts/*.md", "sql/*.sql"]
+customer_intelligence = ["prompts/*.md", "sql/*.sql", "py.typed"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
